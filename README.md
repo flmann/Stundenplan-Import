@@ -4,7 +4,7 @@ javascript function to convert a timetable from the [TUD EE Website](http://www.
 
 ## How to install
 
-1. Go to [This Page](https://flmann.github.io/TUD-Stundenplan-Import)
+1. Go to [This Page](https://flmann.github.io/Stundenplan-Import)
 
 2. Copy all the text
 
