@@ -11,10 +11,13 @@ javascript function to convert a timetable from the [TUD EE Website](http://www.
 ## How to use
 
 1. Click the bookmark once
+
 2. Select all lectures and tutorials
+
 3. Click the bookmark again and download the file
 
-This file can be imported by almost any calendar. (Outlook, iOs, Google Calendar, ...)
+
+The file can be imported by almost any calendar. (Outlook, iOs, Google Calendar, ...)
 
 ## Browser compatibility
 
