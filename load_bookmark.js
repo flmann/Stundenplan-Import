@@ -26,4 +26,4 @@ function loadFile(filePath) {
   }
 
 var a = loadFile("stundenplan_import.js");
-document.getElementById("bookmark_link").setAttribute("href","javascript:" + a.replace(/\s\s+/g, ' '));
+document.body.innerHTML = document.body.innerHTML.replace("placeholder", "javascript:" + a.replace(/\s\s+/g, ' '));
