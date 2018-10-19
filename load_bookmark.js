@@ -25,5 +25,18 @@ function loadFile(filePath) {
     return result;
   }
 
+
+
+  function escapeHtml(unsafe) {
+    return unsafe
+         .replace(/&/g, "&amp;")
+         .replace(/</g, "&lt;")
+         .replace(/>/g, "&gt;")
+         .replace(/"/g, "&quot;")
+         .replace(/'/g, "&#039;");
+ }
+
+
+
 var a = loadFile("stundenplan_import.js");
-document.body.innerHTML = document.body.innerHTML.replace("placeholder", "javascript:" + a.replace(/\s\s+/g, ' '));
+document.body.innerHTML = document.body.innerHTML.replace("placeholder", escapeHtml("javascript:" + a.replace(/\s\s+/g, ' ')));
