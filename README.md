@@ -1,4 +1,4 @@
-# TUD-Stundenplan-Import
+# Stundenplan-Import
 
 javascript function to convert a timetable from the [TUD EE Website](http://www.et.tu-dresden.de/stundenplan/stundenplan_auswahl.php) to iCalendar format
 
