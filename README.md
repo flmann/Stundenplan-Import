@@ -10,11 +10,13 @@ javascript function to convert a timetable from the [TUD EE Website](http://www.
 
 ## How to use
 
-1. Click the bookmark once
+1. Open your timetable [(like this)](http://www.et.tu-dresden.de/stundenplan/stundenplan_anzeige.php?gruppe=EuiDE-1-01&semester=WS18/19)
 
-2. Select all lectures and tutorials
+2. Click the bookmark once
 
-3. Click the bookmark again and download the file
+3. Select all lectures and tutorials
+
+4. Click the bookmark again and download the file
 
 
 The file can be imported by almost any calendar. (Outlook, iOs, Google Calendar, ...)
