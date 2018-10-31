@@ -70,7 +70,7 @@ if((!selection_finished == true)){
         dict['Wintersemester 2019/2020'] = 'Mo, 14.10.2019 bis Sa, 21.12.2019 sowie Mo, 06.01.2020 bis Sa, 08.02.2020';
         dict['Sommersemester 2020'] = 'Mo, 06.04.2020 bis Fr, 29.05.2020 sowie Mo, 08.06.2020 bis Sa, 18.07.2020';
         
-        if (!(semester in dict)) alert('outdated. please update');
+        if (!(semester in dict)) alert('outdated. please update https://github.com/flmann/Stundenplan-Import');
         
         var date_range = dict[semester].replace(/\s/g, '').split('sowie').map(e => e.split('bis')).map(e => e.map(d => d.split(',')[1].split('.')).map(d => new Date([d[2], d[1], d[0]].join('-'))));
         

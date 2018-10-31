@@ -24,3 +24,7 @@ The file can be imported by almost any calendar. (Outlook, iOs, Google Calendar,
 ## Browser compatibility
 
 [Here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions#Browser_compatibility) you can check if your browser is supported
+
+## Known problems
+
+Lectures on single holidays (Feiertage) are falsly included in the calendar
