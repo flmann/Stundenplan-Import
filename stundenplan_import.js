@@ -59,7 +59,7 @@ if ((!selection_finished == true)) {
         return hval >>> 0;
     };
 
-    var semester = /(?:Winter)?(?:Sommer)?semester \d{4}?\/\d{4}/g.exec(document.body.innerHTML)[0];
+    var semester = /(?:Winter)?(?:Sommer)?semester \d{4}?(?:\/\d{4}){0,1}/g.exec(document.body.innerHTML)[0];
 
     var day_list = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag'];
 
